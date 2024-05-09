@@ -15,7 +15,7 @@ const OnOffButton = () => {
           onClick={() => setIsOn(!isOn)}
           className={`${
             isOn ? "justify-end" : "justify-start"
-          } w-52 h-28  border-black flex items-center rounded-full p-2`}
+          } w-52 h-28  border-black cursor-pointer flex items-center rounded-full p-2`}
           style={{
             background: "rgba(255, 255, 255, 0.4)",
           }}
